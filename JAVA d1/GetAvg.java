@@ -18,7 +18,7 @@ public class GetAvg {
       }
       for (int j = 0; j < arr.length; j++) {
         sum += arr[j];
-        avg = sum / arr.length;
+        avg = Math.round(sum/arr.length);
       }
       System.out.print("#"+k + " ");
       System.out.println(avg);
