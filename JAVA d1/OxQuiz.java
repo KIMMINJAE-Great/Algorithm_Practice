@@ -8,10 +8,11 @@ public class OxQuiz {
     int sum = 0;
     int testCase = sc.nextInt();
     System.out.println(testCase + "만큼 실행합니다");
-
-    for (int i = 0; i < 3; i++) {
-      
-      String ox = sc.nextLine();
+    
+    sc.nextLine();
+     for (int i = 0; i < testCase; i++) {
+       String ox = sc.nextLine();
+       
       for (int j = 0; j < ox.length(); j++) {
         char check = ox.charAt(j);
 
